@@ -8,8 +8,12 @@ just based on whatever the rust [std::Char::is_ascii()](https://doc.rust-lang.or
 function does.
 
 
-## Installation
-Put a file like this in your repo's `.pre-commit-config.yaml`:
+## Example .pre-commit-config.yaml
 ```yaml
-FIXME
+repos:
+  - repo: https://github.com/B1tWhys/no-emoji.git
+    rev: 1.0
+    hooks:
+      - id: no-emoji
+        exclude: ".*\\.md" # exclude markdown files
 ```
