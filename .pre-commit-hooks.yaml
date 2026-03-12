@@ -1,5 +1,7 @@
-id: no-emoji
-name: no-emoji
-description: "Simple hook to reject changes contianing non-ascii characters"
-entry: no-emoji
-language: rust
+-   id: no-emoji
+    name: no-emoji
+    description: "Simple hook to reject changes contianing non-ascii characters"
+    entry: no-emoji
+    language: rust
+    types:
+        - text
